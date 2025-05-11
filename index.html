@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Farol Pitimbu</title>
+  </head>
+  <body>
+    <header>
+      <img src="assets/logo.jpg" alt="Logo do Farol Pitimbu" />
+      <span id="burger" class="material-symbols-outlined" onclick="clickMenu()"
+        >menu</span
+      >
+      <menu id="itens">
+        <ul>
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Negócios</a></li>
+          <li><a href="#">Profissionais</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </menu>
+    </header>
+    <main>
+      <img src="assets/image-de-pimtibu.jpg" alt="Imagem de Pitimbu" />
+      <p>
+        O Farol Pitimbu é seu ponto de partida para encontrar tudo o que
+        precisa.
+      </p>
+      <p>
+        Mais praticidade, mais agilidade, tudo em um só lugar de forma simples e
+        eficiente.
+      </p>
+      <p>Deixe o Farol Pitimbu te guiar.</p>
+      <p>Clique abaixo e encontre o que precisa.</p>
+      <section>
+        <section></section>
+        <section></section>
+        <section></section>
+      </section>
+    </main>
+    <script>
+      var isGray = false;
+      function clickMenu() {
+        if (itens.style.display == "block") {
+          itens.style.display = "none";
+        } else {
+          itens.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
