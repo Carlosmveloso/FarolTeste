@@ -1,22 +1,21 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
-      rel="stylesheet"
+      rel="shortcut icon"
+      href="assets/farol-favicon.jpg"
+      type="image/x-icon"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>Farol Pitimbu</title>
   </head>
   <body>
     <header>
-      <img src="assets/logo.jpg" alt="Logo do Farol Pitimbu" />
-      <span id="burger" class="material-symbols-outlined" onclick="clickMenu()"
-        >menu</span
-      >
-      <menu id="itens">
+      <img src="assets/logo.jpg" alt="Logo do site" />
+      <nav>
         <ul>
           <li><a href="#">Início</a></li>
           <li><a href="#">Sobre</a></li>
@@ -25,35 +24,54 @@
           <li><a href="#">Serviços</a></li>
           <li><a href="#">Contato</a></li>
         </ul>
-      </menu>
+      </nav>
     </header>
     <main>
-      <img src="assets/image-de-pimtibu.jpg" alt="Imagem de Pitimbu" />
-      <p>
-        O Farol Pitimbu é seu ponto de partida para encontrar tudo o que
-        precisa.
+      <img
+        class="imagem__da__praia"
+        src="assets/image-de-pimtibu.jpg"
+        alt="Imagem de pitimbu"
+      />
+      <p class="paragrafo-verde">
+        <span class="span-verde"
+          >O Farol Pitimbu é ponto de partida para encontrar tudo o que você
+          precisa</span
+        >
+        <br />
+        mais praticidade, mais agilidade, tudo em um só lugar de forma simples e
+        eficiente
       </p>
-      <p>
-        Mais praticidade, mais agilidade, tudo em um só lugar de forma simples e
-        eficiente.
+      <p class="paragrafo-azul">
+        <span class="span-azul">Deixe o Farol Pitimbu te guiar</span> <br />
+        clique abaixo e encontre o que precisa
       </p>
-      <p>Deixe o Farol Pitimbu te guiar.</p>
-      <p>Clique abaixo e encontre o que precisa.</p>
-      <section>
-        <section></section>
-        <section></section>
-        <section></section>
+      <section class="areas">
+        <div class="escolha">
+          <h2 class="areas__escolha__titulo">Negócios</h2>
+          <img
+            class="areas__escolha__imagem"
+            src="assets/Negócios Locais.png"
+            alt=""
+          />
+        </div>
+        <div class="escolha">
+          <h2 class="areas__escolha__titulo">Profissionais</h2>
+          <img
+            class="areas__escolha__imagem"
+            src="assets/Negócios Locais.png"
+            alt=""
+          />
+        </div>
+        <div class="escolha">
+          <h2 class="areas__escolha__titulo">Serviços</h2>
+          <img
+            class="areas__escolha__imagem"
+            src="assets/Negócios Locais.png"
+            alt=""
+          />
+        </div>
       </section>
     </main>
-    <script>
-      var isGray = false;
-      function clickMenu() {
-        if (itens.style.display == "block") {
-          itens.style.display = "none";
-        } else {
-          itens.style.display = "block";
-        }
-      }
-    </script>
+    <footer></footer>
   </body>
 </html>
