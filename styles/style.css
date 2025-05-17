@@ -137,6 +137,7 @@ footer {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  align-items: flex-start;
   background-color: var(--cor-azul);
 }
 
@@ -171,6 +172,7 @@ footer {
 }
 
 .incentivadores__lista-item__link {
+  width: auto;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
