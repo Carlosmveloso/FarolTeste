@@ -12,7 +12,7 @@ body {
 header {
   text-align: center;
   background-color: var(--cor-azul);
-  width: 100vw;
+  width: 100%;
 }
 
 header img {
@@ -33,7 +33,7 @@ header ul {
 
 header ul li {
   width: 130px;
-  margin: 20   px;
+  margin: 20px;
   list-style-type: none;
 }
 
@@ -53,7 +53,7 @@ header ul li a:hover {
 
 main {
   text-align: center;
-  width: 100vw;
+  width: 100%;
 }
 
 .imagem__da__praia {
@@ -106,7 +106,7 @@ main .paragrafo-azul .span-azul {
   flex-flow: row wrap;
   justify-content: center;
   gap: 50px;
-  margin: 50px 30px;
+  margin: 40px 30px;
 }
 
 .escolha {
@@ -125,4 +125,76 @@ main .paragrafo-azul .span-azul {
 .areas__escolha__imagem {
   width: 100%;
   border-radius: 10px;
+}
+
+.areas__escolha__imagem:hover {
+  box-shadow: 5px 5px 15px rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+footer {
+  width: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: var(--cor-azul);
+}
+
+.incentivadores {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+}
+
+.incentivadores__titulo {
+  color: var(--cor-verde);
+  margin: 20px 10px 0px 20px;
+}
+
+.incentivadores__conteudo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.incentivadores__imagem {
+  width: 180px;
+  height: 180px;
+  margin: 40px 10px 10px 10px;
+  border: 10px solid var(--cor-verde);
+  border-radius: 10px;
+}
+
+.incentivadores__lista {
+  list-style-type: none;
+  width: auto;
+}
+
+.incentivadores__lista-item__link {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin: 10px;
+  gap: 5px;
+  color: var(--cor-verde);
+  text-decoration: none;
+}
+
+.incentivadores__lista-item__link:hover {
+  text-decoration: underline;
+}
+
+.incentivadores__lista-item__imagem {
+  width: 35px;
+  height: 35px;
+  background-color: var(--cor-verde);
+  border-radius: 10px;
+}
+
+.direitos {
+  width: auto;
+  background-color: var(--cor-azul);
+  text-align: center;
+  color: var(--cor-verde);
+  padding-top: 10px;
 }
