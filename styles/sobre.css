@@ -53,8 +53,7 @@ header ul li a:hover {
 
 .introducao__quem {
   width: auto;
-  margin: 20px;
-  padding-left: 40px;
+  padding: 40px;
   font-size: 2.625rem;
   font-weight: 400;
   text-transform: uppercase;
@@ -62,8 +61,7 @@ header ul li a:hover {
 }
 
 .introducao {
-  margin: 10px 50px;
-  padding: 10px;
+  padding: 50px;
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end;
@@ -88,4 +86,45 @@ header ul li a:hover {
   color: var(--cor-azul);
 }
 
+.fundador {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding: 20px 40px;
+}
 
+.imagem-dos-fundadores {
+  border-radius: 50%;
+  border: 10px solid var(--cor-verde);
+}
+
+.informacao {
+  margin: 10px;
+  padding: 10px;
+}
+
+.titulo {
+  margin: 10px;
+  font-size: 32px;
+  color: var(--cor-verde);
+}
+
+.nome {
+  margin: 10px;
+  font-size: 32px;
+  color: var(--cor-azul);
+}
+
+.cargo {
+  margin: 10px;
+  font-size: 32px;
+  color: var(--cor-verde);
+}
+
+.idealizador {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  align-items: center;
+  text-align: end;
+  padding: 20px 40px;
+}
