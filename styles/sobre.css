@@ -128,3 +128,124 @@ header ul li a:hover {
   text-align: end;
   padding: 20px 40px;
 }
+
+hr {
+  margin: 30px 0px;
+  background-color: var(--cor-azul);
+  height: 10px;
+}
+
+.farol-descricao {
+  padding: 20px;
+  text-align: center;
+  font-size: 32px;
+  color: var(--cor-azul);
+}
+
+.farol-objetivos {
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.farol-objetivos-objetivo {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  flex: 1 1 300px;
+}
+
+.farol-objetivos-objetivo-titulo {
+  color: var(--cor-verde);
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.farol-objetivos-objetivo-descricao {
+  text-align: center;
+  font-size: 24px;
+  word-spacing: 5px;
+  color: var(--cor-azul); 
+}
+
+.farol-objetivos-objetivo-ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.farol-objetivos-objetivo-li {
+  color: var(--cor-azul);
+  font-size: 24px;
+}
+
+footer {
+  width: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: var(--cor-azul);
+}
+
+.incentivadores {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+}
+
+.incentivadores__titulo {
+  color: var(--cor-verde);
+  margin: 20px 10px 0px 20px;
+}
+
+.incentivadores__conteudo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.incentivadores__imagem {
+  width: 180px;
+  height: 180px;
+  margin: 40px 10px 10px 10px;
+  border: 10px solid var(--cor-verde);
+  border-radius: 10px;
+}
+
+.incentivadores__lista {
+  list-style-type: none;
+  width: auto;
+}
+
+.incentivadores__lista-item__link {
+  width: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin: 10px;
+  gap: 5px;
+  color: var(--cor-verde);
+  text-decoration: none;
+}
+
+.incentivadores__lista-item__link:hover {
+  text-decoration: underline;
+}
+
+.incentivadores__lista-item__imagem {
+  width: 35px;
+  height: 35px;
+  background-color: var(--cor-verde);
+  border-radius: 10px;
+}
+
+.direitos {
+  width: auto;
+  background-color: var(--cor-azul);
+  text-align: center;
+  color: var(--cor-verde);
+  padding-top: 10px;
+}
