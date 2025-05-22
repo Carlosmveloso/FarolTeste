@@ -181,6 +181,11 @@ footer {
 }
 
 @media (max-width: 480px) {
+
+  header img {
+    max-width: 100%;
+  }
+
   .contato-introducao__titulo {
     font-size: 32px;
   }
