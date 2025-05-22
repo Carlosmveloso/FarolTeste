@@ -168,7 +168,7 @@ hr {
   text-align: center;
   font-size: 24px;
   word-spacing: 5px;
-  color: var(--cor-azul); 
+  color: var(--cor-azul);
 }
 
 .farol-objetivos-objetivo-ul {
@@ -179,6 +179,7 @@ hr {
 .farol-objetivos-objetivo-li {
   color: var(--cor-azul);
   font-size: 24px;
+  font-weight: 500;
 }
 
 footer {
@@ -248,4 +249,88 @@ footer {
   text-align: center;
   color: var(--cor-verde);
   padding-top: 10px;
+}
+
+@media (max-width: 480px) {
+  header img {
+    max-width: 100%;
+  }
+
+  .introducao__quem {
+    display: none;
+  }
+
+  .introducao {
+    padding: 20px;
+  }
+
+  .introducao__o-que-e {
+    padding: 0;
+  }
+
+  .introducao__o-que-e h2 {
+    font-size: 24px;
+  }
+
+  .introducao__o-que-e p {
+    font-size: 18px;
+  }
+
+  .fundador {
+    flex-flow: column nowrap;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .informacao {
+    margin: 0;
+  }
+
+  .titulo {
+    font-size: 24px;
+  }
+
+  .nome {
+    font-size: 24px;
+  }
+
+  .cargo {
+    font-size: 24px;
+  }
+
+  .idealizador {
+    flex-flow: column nowrap;
+    text-align: center;
+  }
+
+  .farol-descricao {
+    font-size: 24px;
+    padding: 0;
+    margin: 10px 10px 30px 10px;
+  }
+
+  .farol-objetivos {
+    padding: 0;
+    margin: 0;
+  }
+
+  .farol-objetivos-objetivo-titulo {
+    font-size: 24px;
+  }
+
+  .farol-objetivos-objetivo-descricao{
+    font-size: 18px;
+    padding: 10px;
+    text-align: justify;
+    border-bottom: 5px solid ;
+  }
+
+  .farol-objetivos-objetivo-ul {
+    margin-bottom: 30px;
+  }
+
+  .farol-objetivos-objetivo-li {
+    font-size: 20px;
+  }
+
 }

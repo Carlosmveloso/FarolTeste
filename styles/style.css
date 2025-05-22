@@ -64,14 +64,7 @@ main {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.264);
 }
 
-main .paragrafo-verde {
-  font-size: 24px;
-  font-weight: 500;
-  padding: 20px;
-  color: var(--cor-azul);
-}
-
-main .paragrafo-verde .span-verde {
+.span-verde {
   display: inline-block;
   margin-bottom: 10px;
   padding: 10px;
@@ -82,14 +75,14 @@ main .paragrafo-verde .span-verde {
   background-color: var(--cor-verde);
 }
 
-main .paragrafo-azul {
+.paragrafo-verde {
   font-size: 24px;
   font-weight: 500;
   padding: 20px;
   color: var(--cor-azul);
 }
 
-main .paragrafo-azul .span-azul {
+.span-azul {
   display: inline-block;
   margin-bottom: 10px;
   padding: 10px;
@@ -99,6 +92,13 @@ main .paragrafo-azul .span-azul {
   text-transform: uppercase;
   color: var(--cor-verde);
   background-color: var(--cor-azul);
+}
+
+.paragrafo-azul {
+  font-size: 24px;
+  font-weight: 500;
+  padding: 20px;
+  color: var(--cor-azul);
 }
 
 .areas {
@@ -199,4 +199,36 @@ footer {
   text-align: center;
   color: var(--cor-verde);
   padding-top: 10px;
+}
+
+@media (max-width: 480px) {
+
+  header img {
+    max-width: 100%;
+  }
+
+  .imagem__da__praia {
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .span-verde {
+    font-size: 24px;
+  }
+
+  .paragrafo-verde {
+    font-size: 18px;
+  }
+
+  .span-azul{
+    font-size: 24px;
+  }
+
+  .paragrafo-azul {
+    font-size: 18px;
+  }
+
+  
 }

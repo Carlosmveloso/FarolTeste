@@ -65,7 +65,7 @@ main {
   align-items: center;
 }
 
-.conteudo-principal img {
+.conteudo-principal__imagem {
   width: 60%;
   border-radius: 5px;
 }
@@ -190,4 +190,19 @@ footer {
   text-align: center;
   color: var(--cor-verde);
   padding-top: 10px;
+}
+
+@media (max-width: 480px) {
+  header img {
+    max-width: 100%;
+  }
+  
+  .usuarios {
+    width: 100%;
+  }
+
+  .conteudo-principal__imagem {
+    width: 90%;
+    height: 75px;
+  }
 }
