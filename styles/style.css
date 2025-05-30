@@ -193,6 +193,29 @@ footer {
   border-radius: 10px;
 }
 
+.redes {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.redes div {
+  text-align: center;
+  padding: 20px;
+}
+
+.redes__titulo {
+  color: var(--cor-verde);
+  margin: 20px 10px 0px 20px;
+}
+
+.redes__link {
+  color: var(--cor-verde);
+}
+
+.redes__imagem:hover {
+  cursor: pointer;
+}
+
 .direitos {
   width: auto;
   background-color: var(--cor-azul);
