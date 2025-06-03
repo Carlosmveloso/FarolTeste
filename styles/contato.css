@@ -209,6 +209,15 @@ footer {
     max-width: 100%;
   }
 
+  main {
+    text-align: center;
+  }
+
+  .informacoes {
+    justify-content: center;
+    gap: 10px;
+  }
+
   .contato-introducao__titulo {
     font-size: 32px;
   }
